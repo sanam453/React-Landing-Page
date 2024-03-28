@@ -15,63 +15,63 @@ import {
   IconButton,
 } from "@material-tailwind/react";
 
+const webData = [
+  {
+    options: "Software Engineer, UI/UX Designer",
+    images:
+      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    name: "Sarah Smith",
+  },
+  {
+    options: "Marketing Manager, Senior Software Engineer",
+    images:
+      "https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?q=80&w=3174&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    name: "Kydn Michael",
+  },
+  {
+    options: "Project Manager",
+    images:
+      "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=3000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    name: "George Alexandar",
+  },
+  {
+    options: "Software Engineer, UI/UX Designer",
+    images:
+      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=3174&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    name: "John Smith",
+  },
+];
+
+const DigitalData = [
+  {
+    options: "Software Engineer, UI/UX Designer",
+    images:
+      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=3174&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    name: "John Smith",
+  },
+  {
+    options: "Marketing Manager, Senior Software Engineer",
+    images:
+      "https://plus.unsplash.com/premium_photo-1664536392779-049ba8fde933?q=80&w=3174&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    name: "Josey Michael",
+  },
+  {
+    options: "Software Engineer, UI/UX Designer",
+    images:
+      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    name: "Sarah Smith",
+  },
+  {
+    options: "Project Manager",
+    images:
+      "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=3174&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    name: "Kendal Alexandar",
+  },
+];
+
 function About() {
-  const webData = [
-    {
-      options: "Software Engineer, UI/UX Designer",
-      images:
-        "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      name: "Sarah Smith",
-    },
-    {
-      options: "Marketing Manager, Senior Software Engineer",
-      images:
-        "https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?q=80&w=3174&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      name: "Kydn Michael",
-    },
-    {
-      options: "Project Manager",
-      images:
-        "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=3000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      name: "George Alexandar",
-    },
-    {
-      options: "Software Engineer, UI/UX Designer",
-      images:
-        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=3174&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      name: "John Smith",
-    },
-  ];
-
-  const DigitalData = [
-    {
-      options: "Software Engineer, UI/UX Designer",
-      images:
-        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=3174&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      name: "John Smith",
-    },
-    {
-      options: "Marketing Manager, Senior Software Engineer",
-      images:
-        "https://plus.unsplash.com/premium_photo-1664536392779-049ba8fde933?q=80&w=3174&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      name: "Josey Michael",
-    },
-    {
-      options: "Software Engineer, UI/UX Designer",
-      images:
-        "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      name: "Sarah Smith",
-    },
-    {
-      options: "Project Manager",
-      images:
-        "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=3174&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      name: "Kendal Alexandar",
-    },
-  ];
-
   return (
-    <section className="my-32 h-full w-full container mx-auto">
+    <section id="about" className="my-32 h-full w-full container mx-auto">
       <div className="flex items-end gap-6 mb-16">
         <Typography variant="h2" className="mb-3 reveal-type text-gray-900">
           Who are we
@@ -79,7 +79,7 @@ function About() {
         <i className="fa fa-arrow-turn-down text-3xl"></i>
       </div>
       <div className="grid lg:grid-cols-2 grid-cols-1 gap-x-10 gap-y-16 place-items-center">
-        <motion.Card
+        <motion.div
           variants={fadeIn("right", 0.3)}
           initial="hidden"
           whileInView={"show"}
@@ -112,8 +112,8 @@ function About() {
             </Typography>
           </CardHeader>
           <CardBody className="grid gap-4">
-            {webData.map(({ name, images, options }) => (
-              <Card shadow={false} className="bg-gray-50">
+            {webData.map(({ name, images, options }, idx) => (
+              <Card key={idx} shadow={false} className="bg-gray-50">
                 <ListItem>
                   <ListItemPrefix>
                     <Avatar variant="circular" alt="candice" src={images} />
@@ -141,8 +141,8 @@ function About() {
               </Card>
             ))}
           </CardBody>
-        </motion.Card>
-        <motion.Card
+        </motion.div>
+        <motion.div
           variants={fadeIn("left", 0.3)}
           initial="hidden"
           whileInView={"show"}
@@ -175,8 +175,8 @@ function About() {
             </Typography>
           </CardHeader>
           <CardBody className="grid gap-4">
-            {DigitalData.map(({ name, images, options }) => (
-              <Card shadow={false} className="bg-gray-50">
+            {DigitalData.map(({ name, images, options }, idx) => (
+              <Card key={idx} shadow={false} className="bg-gray-50">
                 <ListItem>
                   <ListItemPrefix>
                     <Avatar variant="circular" alt="candice" src={images} />
@@ -204,7 +204,7 @@ function About() {
               </Card>
             ))}
           </CardBody>
-        </motion.Card>
+        </motion.div>
       </div>
     </section>
   );

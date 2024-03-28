@@ -3,7 +3,7 @@ import { Typography } from "@material-tailwind/react";
 
 function Pricing() {
   return (
-    <div className="my-32 h-full w-full container mx-auto">
+    <div id="pricing" className="my-32 h-full w-full container mx-auto">
       <Typography variant="h2" className="mb-12 text-black">
         Pricings
       </Typography>
