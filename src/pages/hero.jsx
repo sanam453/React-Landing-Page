@@ -9,7 +9,7 @@ export function Hero() {
     <>
       <div className="m-6 relative">
         <div className="grid min-h-[85vh] w-full !rounded-2xl place-items-center bg-[url('/public/bg.jpg')] bg-cover bg-no-repeat">
-          <div className="absolute inset-0 h-full w-full rounded-3xl bg-black/30" />
+          <div className="absolute inset-0 h-full w-full rounded-2xl bg-black/30" />
           <div className="px-8 container mx-auto">
             <motion.div 
             variants={fadeIn("up", 0.2)}

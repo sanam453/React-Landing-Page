@@ -46,8 +46,8 @@ export function Nav() {
         color="blue-gray"
         className="font-semibold"
       >
-        <a href="#case-studies" className="flex items-center">
-          Studies
+        <a href="#contact" className="flex items-center">
+          Contact
         </a>
       </Typography>
     </ul>

@@ -14,7 +14,7 @@ function Faqs() {
   const handleOpen = (value) => setOpen(open === value ? 0 : value);
 
   return (
-    <section className="text-center mb-32 max-w-4xl mx-auto">
+    <section className="text-center mb-32 px-8 max-w-4xl mx-auto">
       <Typography variant="h2">Frequently Asked Questions</Typography>
       <Typography variant="lead" className="mb-20 mt-4 max-w-4xl mx-auto text-gray-700">
         We&apos;re not always in the position that we want to be at. We&apos;re

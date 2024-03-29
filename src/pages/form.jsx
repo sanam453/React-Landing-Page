@@ -11,7 +11,7 @@ import {
 
 function Form() {
   return (
-    <section className="!my-32 container mx-auto">
+    <section id="contact" className="!my-32 px-8 container mx-auto">
       <div className="relative">
         <img
           src="https://plus.unsplash.com/premium_photo-1668736594244-30fb391ce266?q=80&w=3221&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"

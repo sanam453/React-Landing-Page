@@ -71,7 +71,7 @@ const DigitalData = [
 
 function About() {
   return (
-    <section id="about" className="my-32 h-full w-full container mx-auto">
+    <section id="about" className="my-32 h-full w-full container mx-auto px-8">
       <div className="flex items-end gap-6 mb-16">
         <Typography variant="h2" className="mb-3 reveal-type text-gray-900">
           Who are we
